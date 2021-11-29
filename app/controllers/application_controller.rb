@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+<<<<<<< HEAD
     private
     def current_user
       if session[:login_uid]
@@ -6,4 +7,6 @@ class ApplicationController < ActionController::Base
       end
     end
 helper_method :current_user
+=======
+>>>>>>> origin/master
 end

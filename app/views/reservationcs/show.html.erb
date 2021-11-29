@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>氏名:</strong>
+  <%= @reservationc.name %>
+</p>
+
+<p>
+  <strong>開始時刻:</strong>
+  <%= @reservationc.start_time %>
+</p>
+
+<%= link_to '編集', edit_reservationc_path(@reservationc) %> |
+<%= link_to '戻る', reservationcs_path %>
