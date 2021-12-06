@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "parkreservation",
-=======
   "name": "calendar_app",
->>>>>>> origin/master
   "private": true,
   "dependencies": {}
 }

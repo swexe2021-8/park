@@ -10,12 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2021_11_15_072758) do
 
   create_table "books", force: :cascade do |t|
     t.string "reserve"
     t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "reservationcs", force: :cascade do |t|
+    t.string "name"
+    t.datetime "start_time"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -26,18 +32,5 @@ ActiveRecord::Schema.define(version: 2021_11_15_072758) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
-=======
-ActiveRecord::Schema.define(version: 2021_11_01_084436) do
-
- create_table "reservations", force: :cascade do |t|
-    t.date "day", null: false
-    t.string "time", null: false
-    t.bigint "user_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.datetime "start_time", null: false
-    t.index ["user_id"], name: "index_reservations_on_user_id"
-end
->>>>>>> origin/master
 
 end
