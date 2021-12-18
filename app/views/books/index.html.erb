@@ -1,4 +1,7 @@
 <% @books.each do |e| %>
+<link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+<a href="#!" class="btn-gradient pic-icon">
+
   <p>
     <%= e.reserve %>
     <% if current_user %>
@@ -6,21 +9,31 @@
       <% end %>
     </p>
 <% end %>
-
-<p> 
+<br>
+<br>
+<div class="a">
+  <div class="b"><img class="c" src="assets/a.jpg"></div>
+  <div class="b"><img class="c" src="assets/b.jpg"></div>
+  <div class="b"><img class="c" src="assets/c.jpg"></div>
+</div>
+  
+<table>
+  <tr>
 <% if current_user %>
-  <%= link_to '予約する', new_book_path %>
+  <td><%= button_to "予約する", {controller: 'books', action: 'new'}, {method: :get, class: "mybutton"} %></td>
 <% end %>
-</p>
 
-<p>
+
+
+
+
 <% if current_user %>
-  <%= link_to 'ログアウト', top_logout_path %>
+  <td><%= button_to 'ログアウト', top_logout_path, {method: :get, class: "mybutton"} %></td>
 <% else %>
-  <%= link_to 'ログイン', top_main_path %>
+  <td><%= button_to 'ログイン', top_main_path, {method: :get, class: "mybutton"}%></td>
 <% end %>
-</p>
 
-<p>
-  <%= link_to 'ユーザ一覧', users_path %>
-</p>
+
+  <td><%= button_to 'ユーザ一覧', users_path, {method: :get, class: "mybutton"}%></td>
+  </tr>
+  </table>

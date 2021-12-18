@@ -1,15 +1,31 @@
 
-<p3>
+
+<div class="sentaku">    
+<h1>
    都道府県を選んでください
-</p3>
+</h1>
+</div>
 <br>
+
 <p1>
-  <ul>
-  <li><%= link_to '福岡県', books_new1_path %></li>
+  
+  
+    <div style="position: relative; display:inline-block;">
+      <%= link_to image_tag("f.png", class:"hukuoka"),  books_new1_path %>
+        <p>福岡県</p>
+    </div>
+      
+
   
   <br>
-  <li><%= link_to '大阪府', new_book_path %></li>
+<div style="position: relative; display:inline-block;">
+      <%= link_to image_tag("e.png", class:"oosaka"),  books_new2_path %>
+      
+        <p>大阪府</p>
+        </div>
 <br>  
-<li><%= link_to '東京都', new_book_path %></li>
-</ul>
+<div style="position: relative; display:inline-block;">
+      <%= link_to image_tag("g.png", class:"tokyou"),  books_new3_path %>
+        <p>東京都</p>
+</div>
 </p1>

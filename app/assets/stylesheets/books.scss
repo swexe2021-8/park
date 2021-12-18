@@ -8,5 +8,49 @@ p3 {
     
 }
 p1 {
-    font-size: 25px;
+    font-size: 50px;
 }
+
+
+.mybutton {
+    color: #fff;
+    background-color: #3a3a3a;
+    border: 2px soid #000;
+    text-decoration: none;
+}
+
+.mybutton:hover{
+    color: #000;
+    background-color: #c9c9c9;
+    text-decoration: none;
+}
+
+.sentaku h1 {
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    margin-bottom: 0.2rem;
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    background-repeat: no-repeat;
+    background-size: 0.5rem 100%;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+
+
+.hukuoka{
+    height: 50%;
+    width: 50%;
+}
+.oosaka{
+    height: 50%;
+    width: 50%;
+}
+.tokyou{
+    height: 50%;
+    width: 50%;
+}
+
+.contents {
+    font-size: 50px;
+}
+

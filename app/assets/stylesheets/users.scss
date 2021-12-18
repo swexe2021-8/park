@@ -1,3 +1,23 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.mybutton {
+    font-size: 17px;
+    color: #fff;
+    background-color: #2F4F4F;
+    border: 2px soid #000;
+    text-decoration: none;
+}
+
+.mybutton:hover{
+    color: #000;
+    background-color: #c9c9c9;
+    text-decoration: none;
+}
+
+table {
+    margin: auto;
+}

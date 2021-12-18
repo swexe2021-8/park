@@ -14,4 +14,21 @@
  *= require_self
  *= require simple_calendar
  */
+ .c {
+     height: 500px;
+     width: 50%;
+     margin: 0 auto;
+ }
+ 
+.header {
+  text-align: center;
+  background-color: black;
+  background-size: 100px;
+  color: white;
+}
+.header headline{
+  font-size: 32px;
+}
+
+
  

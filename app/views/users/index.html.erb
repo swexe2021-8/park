@@ -6,11 +6,16 @@
     </p>
 <% end %>
 
+<table>
+  <tr>
+
 <p>
-  <%= link_to '新規登録', new_user_path %>
+  <td><%= button_to '新規登録', new_user_path, {method: :get, class: "mybutton"} %></td>
 </p>
 
 <p>
-  <%= link_to 'ログイン', top_main_path %>
+  <td><%= button_to 'ログイン', top_main_path, {method: :get, class: "mybutton"}  %></td>
 </p>
 
+</tr>
+</table>

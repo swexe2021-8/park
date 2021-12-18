@@ -65,4 +65,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rails-i18n'
 gem 'pry-rails'
 gem 'simple_calendar', '~> 2.0'
+gem 'bootstrap-sass', '3.3.6'
+gem 'jquery-rails'
 
